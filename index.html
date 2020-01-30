@@ -38,7 +38,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
             <header class="major">
                 <h2>Hey, what's up?<br/></h2>
             </header>
-                <p> This is my first attempt at building a website. Most of the groundwork has already done
+                <p> This is my first attempt at building a website. Most of the groundwork has already been done
                      from <a href="http://html5up.net">HTML5 UP</a>. I combined certain elements from a couple templates
                      of my liking to decorate the website.<hr>
                      The back-end was built using spring-boot because I wanted exposure to the technology and I'm hoping 
@@ -115,7 +115,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     <section class="wrapper style1 align-center" id="two">
         <div class="inner">
             <h2>Projects I've Worked On...</h2>
-            <p>The following is a list of projects I have worked/been working on. If you are interestd, click on one to take a look at the related github page!</p>
+            <p>The following is a list of projects I have worked/been working on. If you are interested, click on one to take a look at the related github page!</p>
             <div class="items style1 medium onscroll-fade-in" id="projectTable">
                 <!--<section>
                     <span class="icon style2 major"></span>
@@ -197,10 +197,23 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 
 
-
-
-
-
+    <!--WORK IN PROGRESS - SEND EMAIL VIA PHP (having issues against github pages
+    bc github pages only allow static web pages-->
+    <!--
+    <script>
+        $(document).ready(function(){
+        $.ajax({
+                url:'sendEmail.php',
+                type:'GET', 
+                data:"parameter=some_parameter",
+            success:function(data)
+            {
+                    $("#sendFormDiv").html(data);
+                }
+            });
+        });
+    </script>
+    -->
 
 
 
@@ -211,17 +224,20 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         <h2>Get In Touch</h2>
         <p>Feel free to contact me via email if you have any questions about me or this website! I'd be happy to answer.</p>
         <div class="row">
-            <div class="col-8 col-12-small">
-                <form method="post" action="#">
+            <div class="col-8 col-12-small" id="sendFormDiv">
+                <form method="post" action="https://formspree.io/mzbrzeno">
+
+                <!--<form method="post" name="emailForm" action="sendEmail.php">-->
                     <div class="row gtr-uniform gtr-50">
                         <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
                         <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
                         <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
                     </div>
-                </form>
+                
                 <ul class="actions">
                     <li><input type="submit" value="Send Message" /></li>
                 </ul>
+                </form>
             </div>
             <div class="col-4 col-12-small">
                 <ul class="labeled-icons">

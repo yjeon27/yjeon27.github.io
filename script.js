@@ -40,6 +40,9 @@ window.onload=function(){
                 case "Java":
                     icon.setAttribute("class", "devicon-java-plain colored");
                     break;
+                case "Angular":
+                    icon.setAttribute("class", "devicon-angularjs-plain colored");
+                    break;
                 default:
                     icon.setAttribute("class", "devicon-github-plain colored");
             }

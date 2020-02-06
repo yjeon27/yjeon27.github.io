@@ -74,7 +74,7 @@ window.onload=function(){
             // edge case icon change to Java for "Spring-Boot_HTML5UP"
             if(splitTitle == "Spring-Boot HTML5UP"){
                 icon.setAttribute("class", "devicon-java-plain-wordmark colored");
-            }else if(splitTitle == "Angular_Test"){
+            }else if(splitTitle == "Angular Test"){
                 icon.setAttribute("class", "devicon-angularjs-plain colored");
             }
 

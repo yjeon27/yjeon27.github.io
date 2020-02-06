@@ -40,8 +40,8 @@ window.onload=function(){
                 case "Java":
                     icon.setAttribute("class", "devicon-java-plain colored");
                     break;
-                case "Angular":
-                    icon.setAttribute("class", "devicon-angularjs-plain colored");
+                case "TypeScript":
+                    icon.setAttribute("class", "devicon-typescript-plain colored");
                     break;
                 default:
                     icon.setAttribute("class", "devicon-github-plain colored");
@@ -74,6 +74,8 @@ window.onload=function(){
             // edge case icon change to Java for "Spring-Boot_HTML5UP"
             if(splitTitle == "Spring-Boot HTML5UP"){
                 icon.setAttribute("class", "devicon-java-plain-wordmark colored");
+            }else if(splitTitle == "Angular_Test"){
+                icon.setAttribute("class", "devicon-angularjs-plain colored");
             }
 
             const p = document.createElement('p');

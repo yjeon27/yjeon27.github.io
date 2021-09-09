@@ -10,16 +10,16 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="css/main.css" />
-
 </head>
 <body class="is-preload">
 
 <!-- Header -->
 <header id="header">
     <div class="inner">
-        <a href="#" class="image avatar"><img src="images/profile2_.jpg" alt="" /></a>
+        <a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
         <h1><strong>Young Wan Jeon</strong><br />
-            B.E.Sc  Computer Engineering - Software Systems<br /></h1>
+            responsive site template freebie<br />
+            crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>
     </div>
 </header>
 
@@ -27,24 +27,23 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 <div id="main">
 
     <!-- One -->
-    <section class="banner style1 onload-image-fade-in onload-content-fade-right">
-        <section id="one">
-            <header class="major">
-                <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                    magna sed accumsan arcu neque.</h2>
-            </header>
-            <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
-            <ul class="actions">
-                <li><a href="#two" class="button big wide smooth-scroll-middle">Get Started</a></li>
-            </ul>
-        </section>
+    <section id="one">
+        <header class="major">
+            <h2>Ipsum lorem dolor aliquam ante commodo<br />
+                magna sed accumsan arcu neque.</h2>
+        </header>
+        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+        <ul class="actions">
+            <li><a href="#" class="button">Learn More</a></li>
+        </ul>
     </section>
 
     <!-- Two -->
-    <!--<section id="two">
+    <section id="two">
         <h2>Recent Work</h2>
         <div class="row">
             <article class="col-6 col-12-xsmall work-item">
+<%--                <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>--%>
                 <a href="01" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
                 <h3>Magna sed consequat tempus</h3>
                 <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
@@ -78,123 +77,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         <ul class="actions">
             <li><a href="#" class="button">Full Portfolio</a></li>
         </ul>
-    </section>-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section class="wrapper style1 align-center" id="two">
-        <div class="inner">
-            <h2>Ipsum sed consequat</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
-            <div class="items style1 medium onscroll-fade-in">
-                <section>
-<%--                    <span class="icon style2 major fa-gem"></span>--%>
-                    <span class="icon style2 major"></span>
-<%--                    <img src = "images/git/JS.jpg">--%>
-                    <h3>Project 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-                </section>
-                <section>
-                    <span class="icon solid style2 major fa-save"></span>
-                    <h3>Ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-                </section>
-                <section>
-                    <span class="icon solid style2 major fa-chart-bar"></span>
-                    <h3>Dolor</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-                </section>
-                <section>
-                    <span class="icon solid style2 major fa-wifi"></span>
-                    <h3>Amet</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-                </section>
-                <section>
-                    <span class="icon solid style2 major fa-cog"></span>
-                    <h3>Magna</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-                </section>
-                <section>
-                    <span class="icon style2 major fa-paper-plane"></span>
-                    <h3>Tempus</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-                </section>
-                <section>
-                    <span class="icon solid style2 major fa-desktop"></span>
-                    <h3>Aliquam</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-                </section>
-                <section>
-                    <span class="icon solid style2 major fa-sync-alt"></span>
-                    <h3>Elit</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-                </section>
-                <section>
-                    <span class="icon solid style2 major fa-hashtag"></span>
-                    <h3>Morbi</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-                </section>
-                <section>
-                    <span class="icon solid style2 major fa-bolt"></span>
-                    <h3>Turpis</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-                </section>
-                <section>
-                    <span class="icon solid style2 major fa-envelope"></span>
-                    <h3>Ultrices</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-                </section>
-                <section>
-                    <span class="icon solid style2 major fa-leaf"></span>
-                    <h3>Risus</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-                </section>
-            </div>
-        </div>
-        <ul class="actions">
-            <li><a href="#" class="button big wide smooth-scroll-middle">Return Top</a></li>
-        </ul>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- Three -->
     <section id="three">
@@ -215,19 +98,19 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
             </div>
             <div class="col-4 col-12-small">
                 <ul class="labeled-icons">
-                    <!--<li>
+                    <li>
                         <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
                         1234 Somewhere Rd.<br />
                         Nashville, TN 00000<br />
                         United States
-                    </li>!-->
+                    </li>
                     <li>
                         <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-                        519-694-8851
+                        000-000-0000
                     </li>
                     <li>
                         <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-                        <a href="#">ywjeon1314@gmail.com</a>
+                        <a href="#">hello@untitled.tld</a>
                     </li>
                 </ul>
             </div>
@@ -564,11 +447,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
             <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
         </ul>
         <ul class="copyright">
-            <li>&copy untitled</li>
-        </ul>
-        <ul class="copyright">
-            <li>
-                Built using spring-boot and <a href="http://html5up.net">HTML5 UP</a></li>
+            <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
         </ul>
     </div>
 </footer>

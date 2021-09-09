@@ -28,6 +28,9 @@ window.onload=function(){
             let icon = document.createElement("i"); 
 
             switch(lang){
+                case "C":
+                    icon.setAttribute("class", "devicon-c-plain-wordmark colored");
+                    break;
                 case "C++":
                     icon.setAttribute("class", "devicon-cplusplus-plain colored");
                     break;
@@ -39,9 +42,6 @@ window.onload=function(){
                     break;
                 case "Java":
                     icon.setAttribute("class", "devicon-java-plain colored");
-                    break;
-                case "TypeScript":
-                    icon.setAttribute("class", "devicon-typescript-plain colored");
                     break;
                 default:
                     icon.setAttribute("class", "devicon-github-plain colored");
@@ -68,14 +68,15 @@ window.onload=function(){
             const linkGit = document.createElement("a");
             linkGit.setAttribute("href", resultRepos[i].svn_url);
             linkGit.innerHTML = splitTitle;
+            linkGit.setAttribute("target", "_blank");
+            linkGit.setAttribute("rel", "noopener noreferrer");
+
 
             h3.appendChild(linkGit);
             // debugger;
             // edge case icon change to Java for "Spring-Boot_HTML5UP"
             if(splitTitle == "Spring-Boot HTML5UP"){
                 icon.setAttribute("class", "devicon-java-plain-wordmark colored");
-            }else if(splitTitle == "Angular Test"){
-                icon.setAttribute("class", "devicon-angularjs-plain colored");
             }
 
             const p = document.createElement('p');
